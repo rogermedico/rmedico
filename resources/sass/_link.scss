@@ -18,6 +18,7 @@
 .menu-link-effect {
     display: inline-block;
     overflow: hidden;
+    width: 85px;
     @include media-breakpoint-up(md) {
         width: 150px;
     }

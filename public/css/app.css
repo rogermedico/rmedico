@@ -10044,6 +10044,7 @@ h3 {
 .menu-link-effect {
   display: inline-block;
   overflow: hidden;
+  width: 85px;
   text-align: center;
 }
 @media (min-width: 768px) {
