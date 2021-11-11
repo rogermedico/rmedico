@@ -2,9 +2,10 @@
     <a
         @class([
         'nav-link',
+        'menu-link-effect',
         'active' => $active
         ])
         href="{{route($routeName)}}">
-        {{$tag}}
+        <span>{{$tag}}</span>
     </a>
 </li>

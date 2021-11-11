@@ -1,5 +1,5 @@
-<nav>
-    <ul class="nav">
+<nav class="navbar">
+    <ul class="nav ml-auto mr-0">
         <x-nav-link route-name="home" tag="Home"/>
         <x-nav-link route-name="projects" tag="Projects"/>
         <x-nav-link route-name="cv" tag="CV"/>

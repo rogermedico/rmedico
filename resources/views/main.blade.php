@@ -14,7 +14,7 @@
 
     </head>
     <body>
-    <header>
+    <header class="container-fluid">
         @include('navbar')
     </header>
     <main class="container">
