@@ -3,8 +3,9 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
+use App\Http\Controllers\Views\HomeController;
 
-class ExampleTest extends TestCase
+class HomeControllerTest extends TestCase
 {
     /**
      * A basic test example.
@@ -13,6 +14,7 @@ class ExampleTest extends TestCase
      */
     public function test_example()
     {
+
         $this->assertTrue(true);
     }
 }

@@ -13,9 +13,21 @@
         <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
 
     </head>
-    <body class="container">
-    @include('home.sidebar')
-
+    <body>
+    <header>
+        @include('navbar')
+    </header>
+    <main class="container">
+        @if($page === 'home')
+            @include('pages.home')
+        @elseif($page === 'projects')
+            @include('pages.projects')
+        @elseif($page === 'cv')
+            @include('pages.cv')
+        @elseif($page === 'contact')
+            @include('pages.contact')
+        @endif
+    <main>
 
     </body>
 </html>

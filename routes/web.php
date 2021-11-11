@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\views\MainController;
+use App\Http\Controllers\Views\HomeController;
+use App\Http\Controllers\Views\ProjectsController;
+use App\Http\Controllers\Views\CvController;
+use App\Http\Controllers\Views\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +17,7 @@ use App\Http\Controllers\views\MainController;
 |
 */
 
-Route::get('/{name?}', [MainController::class,'index']);
+Route::get('/', [HomeController::class,'getView'])->name('home');
+Route::get('/projects', [ProjectsController::class,'getView'])->name('projects');
+Route::get('/cv', [CvController::class,'getView'])->name('cv');
+Route::get('/contact', [ContactController::class,'getView'])->name('contact');
