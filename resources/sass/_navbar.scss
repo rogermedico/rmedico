@@ -1,6 +1,15 @@
+.navbar {
+    @include media-breakpoint-down(xs) {
+        padding: .5rem 0;
+    }
+}
+
 .nav-link{
     padding: 0;
-    margin: .5rem;
+    margin: .5rem .2rem;
+    @include media-breakpoint-up(sm) {
+        margin: .5rem;
+    }
 }
 
 .menu-link-effect, .menu-link-effect > span {
@@ -18,7 +27,9 @@
 .menu-link-effect {
     display: inline-block;
     overflow: hidden;
-    width: 85px;
+    @include media-breakpoint-up(sm) {
+        width: 85px;
+    }
     @include media-breakpoint-up(md) {
         width: 150px;
     }

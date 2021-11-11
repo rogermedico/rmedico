@@ -10024,9 +10024,20 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
+@media (max-width: 575.98px) {
+  .navbar {
+    padding: 0.5rem 0;
+  }
+}
+
 .nav-link {
   padding: 0;
-  margin: 0.5rem;
+  margin: 0.5rem 0.2rem;
+}
+@media (min-width: 576px) {
+  .nav-link {
+    margin: 0.5rem;
+  }
 }
 
 .menu-link-effect, .menu-link-effect > span {
@@ -10044,8 +10055,12 @@ h3 {
 .menu-link-effect {
   display: inline-block;
   overflow: hidden;
-  width: 85px;
   text-align: center;
+}
+@media (min-width: 576px) {
+  .menu-link-effect {
+    width: 85px;
+  }
 }
 @media (min-width: 768px) {
   .menu-link-effect {
