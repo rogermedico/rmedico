@@ -9,9 +9,22 @@ class TechnologySeeder extends Seeder
 {
 
     private $technologies = [
-        'Laravel',
         'Angular',
+        'Angular Material',
         'RxJS',
+        'NgRx',
+        'Angular Flex-Layout',
+        'FileSaver.js',
+        'ExcelJS',
+        'Laravel',
+        'JWT',
+        'Intervention Image',
+        'MySQL',
+        'Git',
+        'NPM',
+        'Composer',
+        'Codeigniter',
+        'Bootstrap'
     ];
 
     /**

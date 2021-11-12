@@ -10024,6 +10024,16 @@ h3 {
   font-family: "Roboto Slab", serif;
 }
 
+h1,
+h2 {
+  color: var(--gray-dark);
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 575.98px) {
   .navbar {
     padding: 0.5rem 0;
@@ -10087,7 +10097,7 @@ h3 {
   padding: 10px;
   font-family: "Roboto Slab", serif;
   font-size: larger;
-  color: var(--gray);
+  color: var(--gray-dark);
 }
 .menu-link-effect > span::before, .menu-link-effect > span:after {
   left: 0;
@@ -10108,5 +10118,10 @@ h3 {
   transform: translate(0, 0);
 }
 .menu-link-effect > span:hover {
-  color: var(--gray-dark);
+  color: var(--gray);
+}
+
+.badge {
+  font-size: 90%;
+  font-weight: normal;
 }

@@ -23,7 +23,7 @@ class Project extends Model
 
     public function technologies(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
-        return $this->belongsToMany(Technology::class);
+        return $this->belongsToMany(Technology::class)->orderByPivot('order','asc');
     }
 
 

@@ -19,6 +19,7 @@ class CreateProjectTechnologyTable extends Migration
             $table->foreign('project_id')->references('id')->on('projects')->onDelete('cascade');
             $table->foreign('technology_id')->references('id')->on('technologies')->onDelete('cascade');
             $table->primary(['project_id','technology_id']);
+            $table->integer('order');
 //            $table->timestamps();
         });
     }
