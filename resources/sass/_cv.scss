@@ -2,5 +2,12 @@
     border-left: 3px solid var(--gray);
 }
 
+.cv-image {
+    width: 250px;
+    @include media-breakpoint-up(md){
+        float:right;
+        width: 300px;
+    }
+}
 
 

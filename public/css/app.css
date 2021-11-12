@@ -10033,10 +10033,15 @@ h2 {
 h1 {
   margin-bottom: 1rem;
 }
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
 
 .btn-primary {
-  background-color: #0077b6;
-  border-color: #0077b6;
+  background-color: #003f88;
+  border-color: #003f88;
 }
 
 @media (max-width: 575.98px) {
@@ -10133,4 +10138,14 @@ h1 {
 
 .cv-body {
   border-left: 3px solid var(--gray);
+}
+
+.cv-image {
+  width: 250px;
+}
+@media (min-width: 768px) {
+  .cv-image {
+    float: right;
+    width: 300px;
+  }
 }

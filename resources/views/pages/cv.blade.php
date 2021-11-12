@@ -1,5 +1,8 @@
 <div>
-    <h1>cv</h1>
+    <h1 class="text-center text-md-left">roger medico piqué</h1>
+    <div class="text-center">
+        <img class="cv-image img-fluid" src="{{asset('storage/cv_round.png')}}">
+    </div>
     <div class="mb-3">
         <h2>what i am looking for</h2>
         <div class="cv-body ml-3">
