@@ -1,6 +1,6 @@
 h1,
 h2 {
-    color: var(--gray-dark);
+    color: $primary;
     font-family: $font-family-serif;
 }
 
@@ -8,4 +8,8 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.btn-primary {
+    background-color: $primary-light;
+    border-color: $primary-light;
+}
 

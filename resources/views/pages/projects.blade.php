@@ -1,5 +1,4 @@
 <div>
-
     <h1>projects</h1>
     @foreach($projects as $project)
         <div class="card mb-3">
@@ -33,6 +32,5 @@
             </div>
         </div>
         <p></p>
-
     @endforeach
 </div>
