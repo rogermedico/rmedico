@@ -21,3 +21,4 @@ Route::get('/', [HomeController::class,'getView'])->name('home');
 Route::get('/projects', [ProjectsController::class,'getView'])->name('projects');
 Route::get('/cv', [CvController::class,'getView'])->name('cv');
 Route::get('/contact', [ContactController::class,'getView'])->name('contact');
+Route::post('/contact', [ContactController::class,'contactForm'])->name('contactPost');

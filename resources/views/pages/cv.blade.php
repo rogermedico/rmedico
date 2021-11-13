@@ -1,10 +1,10 @@
 <div>
     <h1 class="text-center text-md-left">roger medico piqué</h1>
     <div class="text-center">
-        <img class="cv-image img-fluid" src="{{asset('storage/cv_round.png')}}">
+        <img class="cv-image img-fluid mb-3 mb-md-2 ml-md-3" src="{{asset('storage/cv_round.png')}}" alt="Profile photo">
     </div>
     <div class="mb-3">
-        <h2>what i am looking for</h2>
+        <h2>what I am looking for</h2>
         <div class="cv-body ml-3">
             <p class="ml-3 py-2">I want to get a position in a former company doing web development and learn more about how the workflow in
                 companies is. Once I achieved that, the main objective is become a good web developer, and if you ask my
@@ -119,10 +119,10 @@
                     <span class="font-weight-bold">Phone:</span> +34 690208110 y +44 (0) 7521126691
                 </li>
                 <li class="mb-1">
-                    <span class="font-weight-bold">Email:</span> roger.medico@gmail.com
+                    <span class="font-weight-bold">Email:</span> <a href="mailto:roger.medico@gmail.com">roger.medico@gmail.com</a>
                 </li>
                 <li class="mb-1">
-                    <span class="font-weight-bold">Current home place:</span> Newcastle Upon Tyne (UK) (Relocation is possible)
+                    <span class="font-weight-bold">Current home place:</span> Newcastle Upon Tyne (UK) (open to relocation)
                 </li>
                 <li>
                     <span class="font-weight-bold">Availability:</span> Immediate

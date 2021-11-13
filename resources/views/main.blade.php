@@ -27,7 +27,7 @@
         @elseif($page === 'contact')
             @include('pages.contact')
         @endif
-    <main>
-
+    </main>
+    <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
     </body>
 </html>

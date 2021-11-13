@@ -1,5 +1,5 @@
 <div>
-    <h1 class="text-center text-md-left">projects</h1>
+    <h1 class="text-center text-md-left">successful projects</h1>
     @foreach($projects as $project)
         <div class="card mb-3">
             <div class="row no-gutters">
