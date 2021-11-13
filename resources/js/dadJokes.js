@@ -8,12 +8,9 @@
     })
         .then(response => response.json())
         .then(response => {
-            if ('message' in response) {
-                console.log('Limit reached for today, sorry bruh...');
-            } else {
-                console.log(response);
-                setTimeout(response => (console.log(response.punch)), 1000);
-            }
+            if ('message' in response) return;
+            console.log(response);
+            setTimeout(response => (console.log(response.punch)), 1000);
         })
         .catch(err => {
             // console.error(err);

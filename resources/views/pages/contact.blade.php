@@ -1,11 +1,12 @@
 <div>
     <h1 class="serif">contact</h1>
-    <div class="offset-lg-2 col-lg-8">
+    <p>If you have something to tell me or just want to be in touch just fill the form and hit send...</p>
         @if(session('message'))
             <div class='alert alert-success'>
                 {{ session('message') }}
             </div>
         @else
+        <div class="offset-lg-2 col-lg-8 p-0">
             @if($errors->any())
                 <div class="alert alert-danger">
                     <ul class="mb-0">
@@ -18,7 +19,7 @@
             <form class="needs-validation" novalidate method="POST" action="{{route('contactPost')}}">
                 {{ csrf_field() }}
                 <div class="d-md-flex flex-md-row">
-                <div class="form-group flex-md-grow-1 mr-3">
+                <div class="form-group flex-md-grow-1 mr-md-3">
                     <label class="sr-only" for="name">Name</label>
                     <input
                         type="text"
@@ -59,6 +60,6 @@
                 </div>
 
             </form>
-        @endif
-    </div>
+        </div>
+    @endif
 </div>
