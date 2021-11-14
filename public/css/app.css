@@ -10149,18 +10149,3 @@ h1 {
     width: 300px;
   }
 }
-
-.contact-form-message-textarea::-moz-placeholder {
-  font-family: monospace;
-  line-height: 1;
-}
-
-.contact-form-message-textarea:-ms-input-placeholder {
-  font-family: monospace;
-  line-height: 1;
-}
-
-.contact-form-message-textarea::placeholder {
-  font-family: monospace;
-  line-height: 1;
-}
