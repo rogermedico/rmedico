@@ -10,11 +10,19 @@ class ProjectsController extends Controller
 {
     public function getView(Request $request)
     {
+
+        $projects = Project::all()->map(function ($project){
+            return $project->fill([
+                    'name' => $project->locale(app()->getLocale())->name,
+                    'body' => $project->locale(app()->getLocale())->body
+            ]);
+        });
+
         return view(
             'main',
             [
                 'page'=> 'projects',
-                'projects' => Project::all(),
+                'projects' => $projects,//Project::all(),
             ]
         );
     }

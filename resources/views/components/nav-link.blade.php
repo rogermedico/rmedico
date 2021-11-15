@@ -6,6 +6,6 @@
         'active' => $active
         ])
         href="{{route($routeName)}}">
-        <span>{{$tag}}</span>
+        <span>{{__($tag)}}</span>
     </a>
 </li>

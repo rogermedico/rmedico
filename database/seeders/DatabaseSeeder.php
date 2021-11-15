@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             TechnologySeeder::class,
             ProjectSeeder::class,
+            ProjectLocalesSeeder::class,
         ]);
     }
 }
