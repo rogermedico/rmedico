@@ -8,10 +8,10 @@
     "what I am looking for": "lo que me gustaría",
     "I want to get a position in a former company doing web development and learn more about how the workflow in companies is. Once I achieved that, the main objective is become a good web developer, and if you ask my personal preference I will choose backend over frontend.": "Me gustaría obtener una posición como desarrollador web para poder aprender más sobre los flujos de trabajo y las peculiaridades del sector. Idealmente me gustaría una posición más enfocada a resolver problemas que al diseño de interfaces.",
     "about me": "sobre mí",
-    "When I finished high school, I started my bachelor degree in Computer Science, however I could not finish it at that time since I had to start working due to familiar reasons. I started to work as audio-visual and computer technician for <span class=\"font-italic\">Solucions d’Assessorament Gestió i Implementació Audiovisual i Informàtica de Catalunya S.L.</span> and I have been working there nonstop until 2018 (the company changed his name while I was there). In that year I felt that my career was stuck so I quit my job and I moved to Umeå (Sweden) with my girlfriend. We spent 2 years there working and studying and, at the end, I achieve my BS in Computer Science. At 2020, we moved for second time to Newcastle Upon Tyne (UK) where at the end of 2020 I finished a MS in Web Development in Universitat Oberta de Catalunya. Nowadays I am doing freelance jobs and searching for a permanent position either attended or remote.": "Cuando finalicé el instituto, empecé el grado en ingeniería informática pero lo tuve que dejar porque por motivos familiares me tuve que poner a trabajar. Empecé a trabajar como técnico audiovisual e informático para la empresa <span class=\"font-italic\">Solucions d’Assessorament Gestió i Implementació Audiovisual i Informàtica de Catalunya S.L.</span> en la que estuve hasta el 2018 (la empresa fue cambiando de nombre pero yo seguí). En ese año me sentí estancado y plegué, entonces yo y mi compañera nos fuimos a Umeå (Suecia) donde estuvimos 2 años en los que aproveche para terminar el grado en ingeniería informática. El 2020 nos mudamos por segunda vez a Newcastle Upon Tyne (UK) donde a finales de 2020 finalicé un master en desarrollo web. Desde entonces estoy buscando un trabajo como desarrollador web ya sea presencialmente o en remoto para poder entrar en el sector mientras estoy trabajando como freelance.",
+    "When I finished high school, I started my bachelor degree in Computer Science, however I could not finish it at that time since I had to start working due to familiar reasons. I started to work as audio-visual and computer technician for <span class=\"font-italic\">Solucions d’Assessorament Gestió i Implementació Audiovisual i Informàtica de Catalunya S.L.</span> and I have been working there nonstop until 2018 (the company changed his name while I was there). In that year I felt that my career was stuck so I quit my job and I moved to Umeå (Sweden) with my girlfriend. We spent 2 years there working and studying and, at the end, I achieve my BS in Computer Science. At 2020, we moved for second time to Newcastle Upon Tyne (UK) where at the end of 2020 I finished a MS in Web Development in Universitat Oberta de Catalunya. Nowadays I am doing freelance jobs and searching for a permanent position either attended or remote.": "Cuando finalicé el instituto, empecé el grado en ingeniería informática pero lo tuve que dejar porque por motivos familiares me tuve que poner a trabajar. Empecé a trabajar como técnico audiovisual e informático para la empresa <span class=\"font-italic\">Solucions d’Assessorament Gestió i Implementació Audiovisual i Informàtica de Catalunya S.L.</span> en la que estuve hasta el 2018 (la empresa fue cambiando de nombre pero yo seguí). En ese año me sentí estancado y plegué, entonces yo y mi compañera nos fuimos a Umeå (Suecia) donde estuvimos 2 años en los que aproveche para terminar el grado en ingeniería informática. El 2020 nos mudamos por segunda vez a Newcastle Upon Tyne (Reino Unido) donde a finales de 2020 finalicé un master en desarrollo web. Desde entonces estoy buscando un trabajo como desarrollador web ya sea presencialmente o en remoto para poder entrar en el sector mientras estoy trabajando como freelance.",
     "education and training": "educación",
     "MSc in Web Development": "Master en Desarrollo de Sitios y Aplicaciones Web",
-    "in Universitat Oberta de Catalunya, finished the 7th of July 2021.": "por la Universitat Oberta de Catalunya, finalizado el 7 de Julio de 2021.",
+    "in Universitat Oberta de Catalunya, finished the 7th of July 2021.": "por la Universitat Oberta de Catalunya, finalizado el 7 de julio de 2021.",
     "BS in Computer Science": "Grado en Ingeniería Informática",
     "in Universitat Oberta de Catalunya, finished the 10th of January 2020.": "por la Universitat Oberta de Catalunya, finalizado el 10 de enero de 2020.",
     "work experience": "experiencia",
@@ -36,7 +36,7 @@
     "Fast learner, logic mind, liable, teamwork, but also independent worker.": "Aprendo rápido, mente lógica, responsable, capacidad de trabajo en grupo pero también independiente.",
     "languages": "lenguas",
     "English:": "Inglés",
-    "Independent user (B2 CEFR & living in UK).": "Usuario independiente (B2 CEFR y residencia en UK)",
+    "Independent user (B2 CEFR & living in UK).": "Usuario independiente (B2 CEFR y residencia en el Reino Unido)",
     "Catalan:": "Catalán",
     "Proficiency user (Native).": "Nativo",
     "Spanish:": "Castellano",
@@ -55,5 +55,8 @@
     "example@gmail.com": "ejemplo@gmail.es",
     "Message": "Mensaje",
     "What you want to say...": "Lo que quieras decirme...",
-    "send message": "enviar mensaje"
+    "send message": "enviar mensaje",
+    "Thank for your message! I will get back to you soon :)": "Gracias por tu mensaje! En breve te responderé :)",
+    "The :attribute field is required.": "El campo :attribute es obligatorio",
+    "The :attribute must be a valid email address": "El campo :attribute tiene que ser una dirección de correo valida"
 }

@@ -20,7 +20,7 @@ class ContactController extends Controller
     {
         $recipient->notify(new ContactFormMessage($request));
 
-        return redirect()->back()->with('message', 'Thank for your message! I will get back to you soon :)');
+        return redirect()->back()->with('message', __('Thank for your message! I will get back to you soon :)'));
     }
 
 }

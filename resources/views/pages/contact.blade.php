@@ -3,7 +3,7 @@
     <p>{{__('If you have something to tell me or just want to be in touch just fill the form and hit send...')}}</p>
         @if(session('message'))
             <div class='alert alert-success'>
-                {{ __(session('message')) }}
+                {{session('message')}}
             </div>
         @else
         <div class="offset-lg-2 col-lg-8 p-0">
@@ -11,7 +11,7 @@
                 <div class="alert alert-danger">
                     <ul class="mb-0">
                         @foreach ($errors->all() as $error)
-                            <li>{{ __($error) }}</li>
+                            <li>{{$error}}</li>
                         @endforeach
                     </ul>
                 </div>
@@ -36,7 +36,7 @@
                         type="email"
                         class="email form-control"
                         id="email"
-                        placeholder="{{ __('example@gmail.com')}}"
+                        placeholder="{{__('example@gmail.com')}}"
                         name="email"
                         pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$"
                         required
@@ -58,7 +58,6 @@
                 <div class="form-group text-right">
                     <button type="submit" class="btn btn-primary" value="Send">{{ __('send message')}}</button>
                 </div>
-
             </form>
         </div>
     @endif

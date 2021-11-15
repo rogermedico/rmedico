@@ -33,8 +33,8 @@ class ContactFormRequest extends FormRequest
     public function messages()
     {
         return [
-            'required' => 'The :attribute field is required.',
-            'email' => 'The :attribute must be a valid :attribute address',
+            'required' => __('The :attribute field is required.'),
+            'email' => __('The :attribute must be a valid email address'),
         ];
     }
 }
