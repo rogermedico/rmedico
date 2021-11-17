@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
+        <title>Roger Medico</title>
+        <meta name="description" content="{{__('Personal webpage, portfolio and CV of Roger Medico.')}}">
+        <meta name="keywords" content="html, css, javascript, typescript, sass, angular, angular material, laravel, bootstrap, php, tailwind, mysql">
+        <meta name="author" content="Roger Medico">
+        <link rel="icon" type="image/png" href="{{asset('storage/favicon/favicon.ico')}}">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
         <!-- Styles -->
         <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
 
