@@ -10133,7 +10133,12 @@ h1 {
 
 h1.home-h1 {
   margin-bottom: 3rem;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  h1.home-h1 {
+    font-size: 2.25rem;
+  }
 }
 @media (min-width: 992px) {
   h1.home-h1 {
@@ -10142,9 +10147,14 @@ h1.home-h1 {
 }
 
 .home-h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 3rem;
   line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .home-h2 {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 992px) {
   .home-h2 {

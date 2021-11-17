@@ -8,8 +8,6 @@
         <meta name="keywords" content="html, css, javascript, typescript, sass, angular, angular material, laravel, bootstrap, php, tailwind, mysql">
         <meta name="author" content="Roger Medico">
         <link rel="icon" type="image/png" href="{{asset('storage/favicon/favicon.ico')}}">
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <!-- Styles -->
         <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
 

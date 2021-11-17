@@ -1,6 +1,4 @@
 <div>
-</div>
-<div>
     <h1 class="home-h1">{{__('You need a complex web aplication? Maybe some special features that common CMS can\'t fulfill? A huge DB to efficiently manage? A custom API?')}}</h1>
     <p class="home-h2">{{__('If the response to at last one of that questions is yes, contact me. I can transform your thoughts into a modern and secure web app.')}}</p>
     <div class="d-flex align-items-center justify-content-around mb-5">
