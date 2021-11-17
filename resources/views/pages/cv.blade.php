@@ -77,7 +77,7 @@
         </div>
     </div>
     <div class="mb-3">
-        <h2>languages</h2>
+        <h2>{{__('languages')}}</h2>
         <div class="cv-body ml-3">
             <ul class="list-unstyled ml-3 py-2">
                 <li class="mb-1">
