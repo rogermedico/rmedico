@@ -10,6 +10,14 @@
         <link rel="icon" type="image/png" href="{{asset('storage/favicon/favicon.ico')}}">
         <!-- Styles -->
         <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179040892-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-179040892-1');
+        </script>
 
     </head>
     <body>
