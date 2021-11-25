@@ -62,5 +62,12 @@
     "You need a complex web application? Maybe some special features that common CMS can't fulfill? A huge DB to efficiently manage? A custom API?": "Necessites una aplicació web complexa? Potser algunes característiques especials que els CMS comuns no et poden proporcionar? Una gran BD per gestionar? Una API personalitzada?",
     "If the response to at last one of that questions is yes, contact me. I can transform your thoughts into a modern and secure web app.": "Si la resposta a alguna de les preguntes anteriors es sí, contacta amb mi. Puc transformar els teus pensaments en una aplicació web moderna i segura.",
     "If you need a common and boring wordpress page I can do it as well, so... CONTACT CONTACT!": "Si necessites una pàgina wordpress comuna i aborrida també puc fer-la, així que... CONTACTA CONTACTA",
-    "Personal webpage, portfolio and CV of Roger Medico.": "Pàgina web personal, portfolio i CV de Roger Medico."
+    "Personal webpage, portfolio and CV of Roger Medico.": "Pàgina web personal, portfolio i CV de Roger Medico.",
+    "Unauthorized": "No autoritzat",
+    "Forbidden": "Prohibit",
+    "Not Found": "No trobat",
+    "Page Expired": "Pàgina expirada",
+    "Too Many Requests": "Masses peticions",
+    "Server Error": "Error del servidor",
+    "Service Unavailable": "Servei no disponible"
 }
