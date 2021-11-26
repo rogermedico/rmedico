@@ -13,7 +13,7 @@ class ContactController extends Controller
 {
     public function getView(Request $request)
     {
-        return view('main',['page'=> 'contact']);
+        return view('pages.contact');
     }
 
     public function contactForm(ContactFormRequest $request, ContactFormRecipient $recipient): RedirectResponse

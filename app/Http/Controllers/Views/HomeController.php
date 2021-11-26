@@ -9,6 +9,6 @@ class HomeController extends Controller
 {
     public function getView(Request $request)
     {
-        return view('main',['page'=> 'home']);
+        return view('pages.home');
     }
 }

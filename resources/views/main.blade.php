@@ -18,22 +18,14 @@
 
             gtag('config', 'UA-179040892-1');
         </script>
-
+        @yield('extra-scripts')
     </head>
     <body>
     <header>
         @include('navbar')
     </header>
     <main class="container">
-        @if($page === 'home')
-            @include('pages.home')
-        @elseif($page === 'projects')
-            @include('pages.projects')
-        @elseif($page === 'cv')
-            @include('pages.cv')
-        @elseif($page === 'contact')
-            @include('pages.contact')
-        @endif
+        @yield('main-content')
     </main>
     <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
     </body>

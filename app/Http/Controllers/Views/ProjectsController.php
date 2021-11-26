@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Views;
 use App\Http\Controllers\Controller;
 use App\Models\Project;
 use Illuminate\Http\Request;
-use Shetabit\Visitor\Traits\Visitable;
 
 class ProjectsController extends Controller
 {
@@ -20,10 +19,9 @@ class ProjectsController extends Controller
         });
 
         return view(
-            'main',
+            'pages.projects',
             [
-                'page'=> 'projects',
-                'projects' => $projects,//Project::all(),
+                'projects' => $projects,
             ]
         );
     }

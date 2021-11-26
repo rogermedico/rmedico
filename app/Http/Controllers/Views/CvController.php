@@ -9,6 +9,6 @@ class CvController extends Controller
 {
     public function getView(Request $request)
     {
-        return view('main',['page'=> 'cv']);
+        return view('pages.cv');
     }
 }
