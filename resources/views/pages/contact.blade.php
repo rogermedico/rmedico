@@ -60,7 +60,7 @@
                             required
                         ></textarea>
                     </div>
-                    <div class="form-group text-right">
+                    <div class="form-group text-center text-md-right">
                         <button type="submit" class="btn btn-primary" value="Send">{{ __('send message')}}</button>
                     </div>
                 </form>
