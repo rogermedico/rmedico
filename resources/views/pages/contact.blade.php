@@ -3,7 +3,7 @@
 @section('main-content')
     <div>
         <h1 class="serif">{{__('contact')}}</h1>
-        <p>{{__('If you have something to tell me or just want to be in touch just fill the form and hit send...')}}</p>
+        <p>{{__('If you have something to tell me or just want to get in touch just fill in the form and hit send...')}}</p>
             @if(session('message'))
                 <div class='alert alert-success'>
                     {{session('message')}}

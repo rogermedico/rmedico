@@ -13,9 +13,9 @@ class ProjectLocalesSeeder extends Seeder
         '1' => [
             'en' => [
                 'name' => 'corporate intranet',
-                'body' => '<p>Project that consists of an intranet for Capicua Serveis Educatius company to manage their employee information.
-                The app has three roles (admin, moderator and employee), the admins and moderators can see and manage other users info.
-                Every user has a personal profile that can fulfill and even the employees can send documents to the company.</p>
+                'body' => '<p>Project consisting of an intranet for the company Capicua Serveis Educatius to manage their employee information.
+                The app has three roles: admin, moderator and employee. The admins and moderators can see and manage other user\'s info.
+                Every user has a personal profile that can fill out and the employees can even send documents to the company.</p>
                 <p>The project was made using Angular to implement the frontend and Laravel for the backend. It also has a dark mode and an
                 email notification system for the new documents and other notifications.</p>
                 <div>To access the demo you can use the following usernames and passwords:
@@ -47,7 +47,7 @@ class ProjectLocalesSeeder extends Seeder
         '2' => [
             'en' => [
                 'name' => 'personal webpage',
-                'body' => '<p>Fully responsive personal webpage development for Dr. Magda Pascual-Borràs. Project was
+                'body' => '<p>Fully responsive personal webpage development for Dr. Magda Pascual-Borràs. The project was
                         made using Codeigniter 3 and Bootstrap.</p>',
             ],
             'es' => [
