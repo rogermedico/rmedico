@@ -9,7 +9,7 @@
         <div class="mb-3">
             <h2>{{__('what I am looking for')}}</h2>
             <div class="cv-body ml-3">
-                <p class="ml-3 py-2">{{__('I am excited by the opportunity to work permanently with an innovative company in which I can utilize my experience and my skills as a backend web developer and thus contribute to the success of the company.')}} </p>
+                <p class="ml-3 py-2">{{__('I am excited by the opportunity to work permanently with an innovative company in which I can utilize my experience and my skills as a frontend and/or a backend web developer and thus contribute to the success of the company.')}} </p>
             </div>
         </div>
         <div class="mb-3">

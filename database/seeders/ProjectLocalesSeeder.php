@@ -26,7 +26,7 @@ class ProjectLocalesSeeder extends Seeder
                 'body' => '<p>Proyecto que consiste en una intranet para la empresa Capicua Serveis Educatius para tratar la información y los documentos de sus empleados.
                 La aplicación tiene tres roles (administrador, moderador y empleado), los usuarios de tipo administrador y moderador  pueden ver y tratar la información de los otros usuarios.
                 Cada usuario tiene un perfil personal que solo él puede rellenar y cada usuario es capaz de enviar documentos a la empresa.</p>
-                <p>El proyecto se ha realizado usando Angular para implementar el frontend y Laravel para el backend. Algunas de las caracteristicas implementadas són:
+                <p>El proyecto se ha realizado usando Angular para implementar el frontend y Laravel para el backend. Algunas de las características implementadas son:
                  modo oscuro y un sistema de notificaciones por correo electrónico a los usuarios.</p>
                 <div>Para acceder a la demo hay configurados los siguientes nombres de usuario y contraseñas:
                 <ul><li>moderator@gmail.com - password</li><li>worker@gmail.com - password</li></ul></div>',

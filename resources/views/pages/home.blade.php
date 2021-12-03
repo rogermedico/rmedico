@@ -31,6 +31,6 @@
             </div>
             <div class="col-1"></div>
         </div>
-        <p class="small muted text-center">{{__('If you need a common and dull WordPress page I can do it as well, so... Drop me a line!')}}</p>
+        <p class="small muted text-center">{{__('If you need a common and boring WordPress page I can do it as well, so... Drop me a line!')}}</p>
     </div>
 @endsection
