@@ -2,7 +2,7 @@
 
 @section('main-content')
     <div>
-        <h1 class="home-h1">{{__('Do you need a complex web application? ')}}<span class="d-none d-md-inline">{{__('Maybe some special features that common CMS can\'t fulfil? ')}}</span>{{__('A huge DB to efficiently manage? A custom API?')}}</h1>
+        <h1 class="home-h1"><span class="d-md-none">{{__('Do you need some special features that common CMS can\'t fulfil? ')}}</span><span class="d-none d-md-inline">{{__('Do you need a complex web application? ')}}{{__('Maybe some special features that common CMS can\'t fulfil? ')}}</span>{{__('A huge DB to efficiently manage? A custom API?')}}</h1>
         <p class="home-h2">{{__('If the answer to at least one of these questions is yes, I\'m your man. I can transform your ideas into a modern and secure web app.')}}</p>
         <div class="d-flex align-items-center justify-content-around mb-3 mb-sm-5">
             <div class="col-md-2">
