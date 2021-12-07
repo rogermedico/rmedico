@@ -21,8 +21,13 @@
                 @endif
 
                 <form class="needs-validation" novalidate method="POST" action="{{route('contactPost')}}">
-                    {{ csrf_field() }}
-                    @captcha(str_replace('_', '-', app()->getLocale()))
+
+                    @csrf
+
+                    @production
+                        @captcha(str_replace('_', '-', app()->getLocale()))
+                    @endproduction
+
                     <div class="d-md-flex flex-md-row">
                     <div class="form-group flex-md-grow-1 mr-md-3">
                         <label class="sr-only" for="name">{{ __('Name')}}</label>

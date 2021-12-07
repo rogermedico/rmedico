@@ -23,12 +23,18 @@ class ContactFormRequest extends FormRequest
      */
     public function rules()
     {
-        return [
+        $validationRules = [
             'name' => 'required|max:255',
             'email' => 'required|email|max:255',
             'message' => 'required',
-            'g-recaptcha-response' => 'required|captcha'
         ];
+
+        if(env('APP_ENV') === 'production')
+        {
+            $validationRules['g-recaptcha-response'] = 'required|captcha';
+        }
+
+        return $validationRules;
     }
 
     public function messages()
