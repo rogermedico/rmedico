@@ -10,6 +10,7 @@ class ProjectSeeder extends Seeder
 
     private $projects = [
         [
+            'project_type' => 'fullstack',
             'link' => 'https://capicua.rmedico.com',
              'technologies' => [
                  1,
@@ -29,6 +30,7 @@ class ProjectSeeder extends Seeder
             ],
         ],
         [
+            'project_type' => 'fullstack',
             'link' => 'https://magda.rmedico.com',
             'technologies' => [
                 15,
@@ -36,6 +38,21 @@ class ProjectSeeder extends Seeder
                 11,
                 12,
 
+            ],
+        ],
+        [
+            'project_type' => 'backend',
+            'link' => 'https://public-api.rmedico.com',
+            'technologies' => [
+                8,
+                11,
+                12,
+                13,
+                14,
+                16,
+                17,
+                18,
+                19,
             ],
         ],
     ];

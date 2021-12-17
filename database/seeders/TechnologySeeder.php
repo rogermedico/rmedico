@@ -24,7 +24,10 @@ class TechnologySeeder extends Seeder
         'NPM',
         'Composer',
         'Codeigniter',
-        'Bootstrap'
+        'Bootstrap',
+        'Swagger',
+        'PHPUnit',
+        'PostMan'
     ];
 
     /**

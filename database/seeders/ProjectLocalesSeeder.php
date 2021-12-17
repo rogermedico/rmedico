@@ -23,9 +23,9 @@ class ProjectLocalesSeeder extends Seeder
             ],
             'es' => [
                 'name' => 'intranet corporativa',
-                'body' => '<p>Proyecto que consiste en una intranet para la empresa Capicua Serveis Educatius para tratar la información y los documentos de sus empleados.
-                La aplicación tiene tres roles (administrador, moderador y empleado), los usuarios de tipo administrador y moderador  pueden ver y tratar la información de los otros usuarios.
-                Cada usuario tiene un perfil personal que solo él puede rellenar y cada usuario es capaz de enviar documentos a la empresa.</p>
+                'body' => '<p>Proyecto consistente en una intranet para la empresa Capicua Serveis Educatius para gestionar la información y los documentos de sus empleados.
+                La aplicación tiene tres roles (administrador, moderador y empleado). Los usuarios de tipo administrador y moderador  pueden ver y tratar la información de los otros usuarios.
+                Cada usuario tiene un perfil personal que solo él puede rellenar y cada usuario puede enviar documentos a la empresa.</p>
                 <p>El proyecto se ha realizado usando Angular para implementar el frontend y Laravel para el backend. Algunas de las características implementadas son:
                  modo oscuro y un sistema de notificaciones por correo electrónico a los usuarios.</p>
                 <div>Para acceder a la demo hay configurados los siguientes nombres de usuario y contraseñas:
@@ -34,8 +34,8 @@ class ProjectLocalesSeeder extends Seeder
             'ca' => [
                 'name' => 'intranet corporativa',
                 'body' => '<p>Projecte que consisteix en el desenvolupament d\'una intranet corporativa per a l\'empresa Capicua Serveis Educatius.
-                La finalitat de la mateixa és poder tractar la informació dels seus empleats i els documents associats a ells.
-                L\'aplicació disposa de tres rols d\'usuari (administrador, moderador i empleat), els usuaris de tipus administrador i moderador
+                La finalitat de la mateixa és poder gestionar la informació dels seus empleats i els documents associats a ells.
+                L\'aplicació disposa de tres rols d\'usuari: administrador, moderador i empleat. Els usuaris de tipus administrador i moderador
                 poden veure i tractar les dades de tots els altres usuaris. Cada usuari té un perfil personal que només ell pot omplir
                 i cada usuari pot enviar documents a l\'empresa.</p>
                 <p>El projecte s\'ha desenvolupat a través del framework Angular per al frontend i Laravel per al backend. Algunes de
@@ -59,6 +59,29 @@ class ProjectLocalesSeeder extends Seeder
                 'name' => 'pàgina web personal',
                 'body' => '<p>Desenvolupament d\'una pàgina web personal completament responsiva per a la Dra. Magda Pascual-Borràs.
                         El projecte s\'ha desenvolupat a través de Codeigniter 3 i Bootstrap.</p>',
+            ],
+        ],
+        '3' => [
+            'en' => [
+                'name' => 'authenticated public API',
+                'body' => '<p>Example of a API that stores people, pets and the relation between them. The API is authenticated
+                            by a bearer token and the documentation is made by Swagger. The API is accessible by any method and
+                            is ready to consume. The easiest way to try it is using the documentation that allows you to make all of
+                            possible requests.</p>',
+            ],
+            'es' => [
+                'name' => 'API pública y autenticada',
+                'body' => '<p>Ejemplo de API que almacena a personas, mascotas y la relación entre ellos. La autenticación se
+                             realiza mediante una "token bearer" y la documentación está hecha con Swagger. La API es accesible a través de cualquier método y
+                             está lista para consumir. La forma más sencilla de probarla es utilizando la documentación
+                             que dispone de métodos para realizar todas las posibles peticiones. </p>',
+            ],
+            'ca' => [
+                'name' => 'API pública i autenticada',
+                'body' => '<p>Exemple d\'API que emmagatzema persones, mascotes i la relació entre ells. L\'autenticació es
+                            realitza mitjançant una "token bearer" i la documentació està feta amb Swagger. L\'API és accessible a través de qualsevol mètode i
+                            està llesta per consumir. La manera més senzilla de provar-la és utilitzant la documentació la
+                            qual disposa de mètodes per realitzar totes les possibles peticions.</p>',
             ],
         ],
     ];

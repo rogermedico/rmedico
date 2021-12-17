@@ -21,7 +21,17 @@ class ProjectsController extends Controller
         return view(
             'pages.projects',
             [
-                'projects' => $projects,
+                'projects' => (object)[
+                    'backend' => $projects->filter( function ($project){
+                        return $project->project_type === 'backend';
+                    })->values(),
+                    'frontend' => $projects->filter( function ($project){
+                        return $project->project_type === 'frontend';
+                    })->values(),
+                    'fullstack' => $projects->filter( function ($project){
+                        return $project->project_type === 'fullstack';
+                    })->values()
+                ]
             ]
         );
     }

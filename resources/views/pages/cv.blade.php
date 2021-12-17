@@ -16,7 +16,7 @@
             <h2>{{__('about me')}}</h2>
             <div class="cv-body ml-3">
                     <p class="ml-3 py-2">
-                        {!!__('After 8 years working as an audio-visual and computer technician, I decided to expand my personal and professional horizons by moving to Sweden and later to the UK while finishing my BSc in Computer Science and completing my MS in Web Development in a distance-learning university. As a freelance web developer, I have successfully developed personal websites and a corporate intranet using Angular as a frontend and Laravel as a backend, which are only an example of some of the technical skills I possess. Personally, I’m a fast learner, logical minded and a responsible team player who can also work independently. I’m currently seeking a permanent position as a frontend or backend web developer in an exciting and innovative company.')!!}
+                        {!!__('After 8 years working as an audio-visual and computer technician, I decided to expand my personal and professional horizons by moving to Sweden and later to the UK while finishing my BSc in Computer Science and completing my MS in Web Development in a distance-learning university. As a freelance web developer, I have successfully developed personal websites and a corporate intranet using Angular as a frontend and Laravel as a backend, which are only an example of some of the technical skills I possess. Personally, I’m a fast learner, logical minded and a responsible team player who can also work independently. I’m currently seeking a permanent position as a frontend, backend or full stack web developer in an exciting and innovative company.')!!}
                     </p>
             </div>
         </div>
@@ -63,7 +63,7 @@
                         <span class="font-weight-bold">{{__('Other programming languages:')}}</span> {{__('C, Java, R, Python, Bash.')}}
                     </li>
                     <li class="mb-1">
-                        <span class="font-weight-bold">{{__('Development patterns:')}}</span> {{__('TDD, OOP, MVC.')}}
+                        <span class="font-weight-bold">{{__('Design patterns:')}}</span> {{__('TDD, OOP, MVC.')}}
                     </li>
                     <li>
                         <span class="font-weight-bold">{{__('Other skills:')}}</span> {{__('Embedded systems, microcontrollers, networks.')}}
