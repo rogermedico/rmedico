@@ -30,7 +30,10 @@ class TechnologySeeder extends Seeder
         'PostMan',
         'PWA',
         'RapidAPI',
-        'API'
+        'API',
+        'Dark mode',
+        'In Memory Web API',
+        'CRUD',
 
     ];
 

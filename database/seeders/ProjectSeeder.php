@@ -12,7 +12,7 @@ class ProjectSeeder extends Seeder
         [
             'project_type' => 'fullstack',
             'link' => 'https://capicua.rmedico.com',
-             'technologies' => [
+            'technologies' => [
                  1,
                  2,
                  3,
@@ -29,6 +29,8 @@ class ProjectSeeder extends Seeder
                  14,
                  20,
                  22,
+                 23,
+                 25,
             ],
         ],
         [
@@ -55,6 +57,24 @@ class ProjectSeeder extends Seeder
                 17,
                 18,
                 19,
+            ],
+        ],
+        [
+            'project_type' => 'frontend',
+            'link' => 'https://vma.rmedico.com',
+            'technologies' => [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                12,
+                13,
+                22,
+                23,
+                24,
+                25,
             ],
         ],
         [
