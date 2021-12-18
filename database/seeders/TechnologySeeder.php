@@ -27,7 +27,11 @@ class TechnologySeeder extends Seeder
         'Bootstrap',
         'Swagger',
         'PHPUnit',
-        'PostMan'
+        'PostMan',
+        'PWA',
+        'RapidAPI',
+        'API'
+
     ];
 
     /**

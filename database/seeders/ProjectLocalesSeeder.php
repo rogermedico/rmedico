@@ -64,7 +64,7 @@ class ProjectLocalesSeeder extends Seeder
         '3' => [
             'en' => [
                 'name' => 'authenticated public API',
-                'body' => '<p>Example of a API that stores people, pets and the relation between them. The API is authenticated
+                'body' => '<p>Example of an API that stores people, pets and the relation between them. The API is authenticated
                             by a bearer token and the documentation is made by Swagger. The API is accessible by any method and
                             is ready to consume. The easiest way to try it is using the documentation that allows you to make all of
                             possible requests.</p>',
@@ -74,7 +74,7 @@ class ProjectLocalesSeeder extends Seeder
                 'body' => '<p>Ejemplo de API que almacena a personas, mascotas y la relación entre ellos. La autenticación se
                              realiza mediante una "token bearer" y la documentación está hecha con Swagger. La API es accesible a través de cualquier método y
                              está lista para consumir. La forma más sencilla de probarla es utilizando la documentación
-                             que dispone de métodos para realizar todas las posibles peticiones. </p>',
+                             la cual dispone de métodos para realizar todas las posibles peticiones. </p>',
             ],
             'ca' => [
                 'name' => 'API pública i autenticada',
@@ -82,6 +82,29 @@ class ProjectLocalesSeeder extends Seeder
                             realitza mitjançant una "token bearer" i la documentació està feta amb Swagger. L\'API és accessible a través de qualsevol mètode i
                             està llesta per consumir. La manera més senzilla de provar-la és utilitzant la documentació la
                             qual disposa de mètodes per realitzar totes les possibles peticions.</p>',
+            ],
+        ],
+        '4' => [
+            'en' => [
+                'name' => 'Dictionary (Public API consumption)',
+                'body' => '<p>Angular project that consumes a public API from <a href="https://rapidapi.com">RapidApi</a> site.
+                            The API consumed is a dictionary that allows the user to search words and get definitions and synonymous.
+                            The app is designed with Angular Material and Bootstrap, and it is also a PWA that can be installed
+                            into a PC or mobile device.</p>',
+            ],
+            'es' => [
+                'name' => 'Diccionario (consumo de una API pública)',
+                'body' => '<p>Proyecto Angular que consume una API pública del sitio web <a href="https://rapidapi.com">RapidApi</a>.
+                             La API consumida es un diccionario que permite al usuario buscar palabras y obtener definiciones y sinónimos.
+                             La aplicación está diseñada con Angular Material y Bootstrap, y también es una PWA que se puede instalar
+                             en una PC o dispositivo móvil. </p>',
+            ],
+            'ca' => [
+                'name' => 'Diccionari (consum d\'una API pública)',
+                'body' => '<p>Projecte Angular que consumeix una API pública del lloc <a href="https://rapidapi.com">RapidApi</a>.
+                             L\'API consumida és un diccionari que permet a l\'usuari buscar paraules i obtenir definicions i sinònims.
+                             L\'aplicació està dissenyada amb Angular Material i Bootstrap, i també és una PWA que es pot instal·lar
+                             en un ordinador o dispositiu mòbil. </p>',
             ],
         ],
     ];

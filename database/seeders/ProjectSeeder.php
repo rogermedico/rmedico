@@ -27,6 +27,8 @@ class ProjectSeeder extends Seeder
                  12,
                  13,
                  14,
+                 20,
+                 22,
             ],
         ],
         [
@@ -53,6 +55,19 @@ class ProjectSeeder extends Seeder
                 17,
                 18,
                 19,
+            ],
+        ],
+        [
+            'project_type' => 'frontend',
+            'link' => 'https://dictionary.rmedico.com',
+            'technologies' => [
+                1,
+                2,
+                12,
+                13,
+                16,
+                20,
+                21,
             ],
         ],
     ];

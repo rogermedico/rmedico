@@ -6,7 +6,7 @@
         @foreach($projects as $projectsCollection)
             @foreach($projectsCollection as $project)
                 @if($loop->first)
-                    <h2>{{$project->project_type}}</h2>
+                    <h2 class="my-4">{{$project->project_type}}</h2>
                 @endif
                 <x-project :project="$project"/>
             @endforeach
