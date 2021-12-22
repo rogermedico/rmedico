@@ -86,21 +86,21 @@ class ProjectLocalesSeeder extends Seeder
         ],
         '4' => [
             'en' => [
-                'name' => 'Vehicle Management App (CRUD)',
-                'body' => '<p>Angular project that consumes a fake API and implements a vehicle CRUD. The project achieves modularity
-                            implementing one Angular lazy loaded module for every tab in the right hand of the app. The styles have been
-                            made with Angular Material and Angular Flex-Layout. The app has dark theme and is fully responsive.
-                            The CRUD also has a filter and a export to excel button.</p>',
+                'name' => 'vehicle management app (CRUD)',
+                'body' => '<p>Angular project that consumes a fake API and implements a vehicle CRUD. The project achieves a certain modularity
+                            implementing one Angular (lazy loaded) module for every tab in the menu of the app. The styles have been
+                            made with Angular Material and Angular Flex-Layout. The app has a dark theme and is fully responsive.
+                            The CRUD also has a filter and a button to export the data to excel.</p>',
             ],
             'es' => [
-                'name' => 'Aplicación de Gestión de Vehículos (CRUD)',
+                'name' => 'aplicación de gestión de vehículos (CRUD)',
                 'body' => '<p>Proyecto Angular que consume una API falsa e implementa un CRUD de vehículos. El proyecto alcanza una cierta modularidad
                               implementando un módulo (lazy loaded) para cada pestaña del menú de la aplicación. Los estilos han sido
                               hechos con Angular Material y Angular Flex-Layout. La aplicación tiene un tema oscuro y es totalmente responsiva.
                               El CRUD también tiene un filtro i un botón que permite exportar los datos a excel.</p>',
             ],
             'ca' => [
-                'name' => 'Aplicació de Gestió de Vehicles (CRUD)',
+                'name' => 'aplicació de gestió de vehicles (CRUD)',
                 'body' => '<p>Projecte Angular que consumeix una API falsa i implementa un CRUD de vehicles. El projecte aconsegueix una certa modularitat
                              implementant un mòdul (lazy loaded) per a cada pestanya del menú de l\'aplicació. Els estils han estat
                              fets amb Angular Material i Angular Flex-Layout. L\'aplicació té un tema fosc i és totalment responsiva.
@@ -109,22 +109,22 @@ class ProjectLocalesSeeder extends Seeder
         ],
         '5' => [
             'en' => [
-                'name' => 'Dictionary (Public API consumption)',
-                'body' => '<p>Angular project that consumes a public API from <a href="https://rapidapi.com">RapidApi</a> site.
-                            The API consumed is a dictionary that allows the user to search words and get definitions and synonymous.
+                'name' => 'dictionary (Public API consumption)',
+                'body' => '<p>Angular project that consumes a public API from the <a href="https://rapidapi.com">RapidAPI</a> website.
+                            The API consumed is a dictionary that allows the user to search words and get definitions and synonyms.
                             The app is designed with Angular Material and Bootstrap, and it is also a PWA that can be installed
                             into a PC or mobile device.</p>',
             ],
             'es' => [
-                'name' => 'Diccionario (consumo de una API pública)',
+                'name' => 'diccionario (consumo de una API pública)',
                 'body' => '<p>Proyecto Angular que consume una API pública del sitio web <a href="https://rapidapi.com">RapidApi</a>.
                              La API consumida es un diccionario que permite al usuario buscar palabras y obtener definiciones y sinónimos.
                              La aplicación está diseñada con Angular Material y Bootstrap, y también es una PWA que se puede instalar
-                             en una PC o dispositivo móvil. </p>',
+                             en un PC o dispositivo móvil. </p>',
             ],
             'ca' => [
-                'name' => 'Diccionari (consum d\'una API pública)',
-                'body' => '<p>Projecte Angular que consumeix una API pública del lloc <a href="https://rapidapi.com">RapidApi</a>.
+                'name' => 'diccionari (consum d\'una API pública)',
+                'body' => '<p>Projecte Angular que consumeix una API pública del lloc web <a href="https://rapidapi.com">RapidApi</a>.
                              L\'API consumida és un diccionari que permet a l\'usuari buscar paraules i obtenir definicions i sinònims.
                              L\'aplicació està dissenyada amb Angular Material i Bootstrap, i també és una PWA que es pot instal·lar
                              en un ordinador o dispositiu mòbil. </p>',
