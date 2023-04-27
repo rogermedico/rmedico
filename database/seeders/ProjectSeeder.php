@@ -35,7 +35,7 @@ class ProjectSeeder extends Seeder
         ],
         [
             'project_type' => 'fullstack',
-            'link' => 'https://magda.rmedico.com',
+            'link' => 'https://magdapb.rmedico.com',
             'technologies' => [
                 15,
                 16,
